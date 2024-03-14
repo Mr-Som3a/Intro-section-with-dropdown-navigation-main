@@ -1,0 +1,14 @@
+h1{
+    font-size: 5rem;
+}
+p{
+    color:hsl(0, 0%, 41%);
+    font-size: 1.1rem;
+}
+.btn-dark{
+    &:hover{
+        background-color: white;
+        outline-color: black;
+        color:black
+    }
+}
