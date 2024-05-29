@@ -18,7 +18,7 @@ class NavBar extends Component {
     
     render() { 
         
-        const { active,show,items } = this.state
+        const { show,items } = this.state
         const handleClick = (e) => {
             console.log(e);
             const ref = [...this.state.items]
